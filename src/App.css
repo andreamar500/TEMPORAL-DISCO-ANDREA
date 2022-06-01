@@ -1,0 +1,22 @@
+html,body {
+  padding:0;
+  margin:0;
+  background-color: #000;
+
+}
+.titulo-login{
+  color:white;
+}
+.encabezado-login{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.encabezado-login .titulo-login{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  width: 180px;
+  margin-left:auto;
+  margin-right: auto;
+}
