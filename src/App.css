@@ -20,3 +20,14 @@ html,body {
   margin-left:auto;
   margin-right: auto;
 }
+.ingresa-nombre{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+}
+.politicas{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5vh;
+}

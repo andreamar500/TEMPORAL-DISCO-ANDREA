@@ -1,3 +1,53 @@
 .label-login{
     color:white;
 }
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin-top:10%;
+  }
+  
+  .strike > span {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .strike > span:before,
+  .strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: white;
+  }
+  
+  .strike > span:before {
+    right: 100%;
+    margin-right: 35px;
+  }
+  
+  .strike > span:after {
+    left: 100%;
+    margin-left: 35px;
+  }
+  
+  .linea{
+    color:white
+  }
+  .login-google, .login-facebook{
+    background-color: #444444;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    width: 98.215%;
+    height: 45px;
+    display: block;
+  }
+.btn-continuar{
+    width: 98.215%;
+    background-color:  #D5D5D3;
+}
